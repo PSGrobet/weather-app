@@ -1,0 +1,61 @@
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+  background: linear-gradient(to bottom, #01557c, #fff);
+  height: 90vh;  
+}
+
+.weather {
+  width: 200px;
+  height: 240px;
+  margin: 50px auto;
+  background-color: rgba(0, 0, 0, 0.25);
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.788);
+  border-radius: 5px;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.options {
+  display: flex;
+  justify-content: center;
+}
+
+.options div {
+  margin: 10px 20px;
+}
+
+button {
+  margin: auto;
+}
+
+.desc {
+  text-transform: capitalize;
+}
+
+.icon {
+  width: 70px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: transparent;
+  border: 2px solid #01557c;
+  border-radius: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+
+button:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  
+  letter-spacing: 1px;
+}
